@@ -2,7 +2,7 @@
 import numpy as np
 
 
-def best_f1_score_with_point_adjust(labels, anomaly_scores, delay=100):
+def best_f1_score_with_point_adjust(labels, anomaly_scores, delay=10):
     """
     Borrow from https://github.com/NetManAIOps/AutoKAD
     """
